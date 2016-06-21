@@ -5,6 +5,9 @@
 * 透明度选择
 * 悬浮窗置顶
 * 鼠标拖动，可自动停靠
+##预览
+* ![适配器选择](https://raw.githubusercontent.com/experdot/ExperDot.NetSpeedMonitor/master/Preview_Adapter.jpg)
+* ![透明度调节](https://raw.githubusercontent.com/experdot/ExperDot.NetSpeedMonitor/master/Preview_Transparent.jpg)
 
 ##版本更新
 * 暂无该项内容
