@@ -99,9 +99,9 @@ Public Class NetworkAdapter
     Public ReadOnly Property DownloadSpeedString() As String
         Get
             If dlSpeed < 1048576 Then
-                Return [String].Format("{0:n} KB/S", Me.dlSpeed / 1024.0)
+                Return [String].Format("{0:n} kB/S", Me.dlSpeed / 1024.0)
             Else
-                Return [String].Format("{0:n} MB/S", Me.dlSpeed / 1048576)
+                Return [String].Format("{0:n} kB/S", Me.dlSpeed / 1048576)
             End If
         End Get
     End Property

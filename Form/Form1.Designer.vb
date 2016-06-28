@@ -55,9 +55,9 @@ Partial Class Form1
         Me.Label1.Location = New System.Drawing.Point(0, 0)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(223, 33)
+        Me.Label1.Size = New System.Drawing.Size(205, 23)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "0.0KB/s-0.0KB/s"
+        Me.Label1.Text = "0.0KB/s ↓-0.0KB/s ↑"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'ContextMenuStrip1
@@ -66,84 +66,85 @@ Partial Class Form1
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
         Me.ContextMenuStrip1.ShowCheckMargin = True
         Me.ContextMenuStrip1.ShowImageMargin = False
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(161, 130)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(125, 98)
         '
         'ChooseNetDisk
         '
         Me.ChooseNetDisk.Name = "ChooseNetDisk"
-        Me.ChooseNetDisk.Size = New System.Drawing.Size(160, 30)
+        Me.ChooseNetDisk.Size = New System.Drawing.Size(124, 22)
         Me.ChooseNetDisk.Text = "选择网卡"
         '
         'ChooseOpacity
         '
         Me.ChooseOpacity.DropDown = Me.OpacityMenu
         Me.ChooseOpacity.Name = "ChooseOpacity"
-        Me.ChooseOpacity.Size = New System.Drawing.Size(160, 30)
+        Me.ChooseOpacity.Size = New System.Drawing.Size(124, 22)
         Me.ChooseOpacity.Text = "透明度"
         '
         'OpacityMenu
         '
         Me.OpacityMenu.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Percent_100, Me.Percent_90, Me.Percent_75, Me.Percent_50, Me.Percent_25})
         Me.OpacityMenu.Name = "OpacityMenu"
-        Me.OpacityMenu.Size = New System.Drawing.Size(135, 154)
+        Me.OpacityMenu.OwnerItem = Me.ChooseOpacity
+        Me.OpacityMenu.Size = New System.Drawing.Size(109, 114)
         '
         'Percent_100
         '
         Me.Percent_100.Name = "Percent_100"
-        Me.Percent_100.Size = New System.Drawing.Size(134, 30)
+        Me.Percent_100.Size = New System.Drawing.Size(108, 22)
         Me.Percent_100.Tag = "100"
         Me.Percent_100.Text = "100%"
         '
         'Percent_90
         '
         Me.Percent_90.Name = "Percent_90"
-        Me.Percent_90.Size = New System.Drawing.Size(134, 30)
+        Me.Percent_90.Size = New System.Drawing.Size(108, 22)
         Me.Percent_90.Tag = "90"
         Me.Percent_90.Text = "90%"
         '
         'Percent_75
         '
         Me.Percent_75.Name = "Percent_75"
-        Me.Percent_75.Size = New System.Drawing.Size(134, 30)
+        Me.Percent_75.Size = New System.Drawing.Size(108, 22)
         Me.Percent_75.Tag = "75"
         Me.Percent_75.Text = "75%"
         '
         'Percent_50
         '
         Me.Percent_50.Name = "Percent_50"
-        Me.Percent_50.Size = New System.Drawing.Size(134, 30)
+        Me.Percent_50.Size = New System.Drawing.Size(108, 22)
         Me.Percent_50.Tag = "50"
         Me.Percent_50.Text = "50%"
         '
         'Percent_25
         '
         Me.Percent_25.Name = "Percent_25"
-        Me.Percent_25.Size = New System.Drawing.Size(134, 30)
+        Me.Percent_25.Size = New System.Drawing.Size(108, 22)
         Me.Percent_25.Tag = "25"
         Me.Percent_25.Text = "25%"
         '
         'IsTopMost
         '
         Me.IsTopMost.Name = "IsTopMost"
-        Me.IsTopMost.Size = New System.Drawing.Size(160, 30)
+        Me.IsTopMost.Size = New System.Drawing.Size(124, 22)
         Me.IsTopMost.Text = "窗体置顶"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(157, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(121, 6)
         '
         'ExitTool
         '
         Me.ExitTool.Name = "ExitTool"
-        Me.ExitTool.Size = New System.Drawing.Size(160, 30)
+        Me.ExitTool.Size = New System.Drawing.Size(124, 22)
         Me.ExitTool.Text = "退出"
         '
         'Form1
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit
         Me.BackColor = System.Drawing.SystemColors.Control
-        Me.ClientSize = New System.Drawing.Size(223, 40)
+        Me.ClientSize = New System.Drawing.Size(205, 23)
         Me.ControlBox = False
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
