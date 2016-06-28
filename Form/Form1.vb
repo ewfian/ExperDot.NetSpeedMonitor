@@ -11,7 +11,7 @@
     End Sub
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         Dim tempAdapter As NetworkAdapter = MyAdapters(SelectedIndex)
-        Label1.Text = tempAdapter.DownloadSpeedString & "-" & tempAdapter.UploadSpeedString
+        Label1.Text = tempAdapter.DownloadSpeedString & " ↓-" & tempAdapter.UploadSpeedString & "↑"
     End Sub
 
     Dim OldX, OldY, OldFormX, OldFormY As Integer
